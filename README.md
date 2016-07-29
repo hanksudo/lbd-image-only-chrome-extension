@@ -1,7 +1,5 @@
-# Chrome Exntension to show images only on currenct active tab
+## Show image only on current page.
 
-> Filter all content but images
-
-## Reference
+### Reference
 
 - [Sample Extensions - Google Chrome](https://developer.chrome.com/extensions/samples)
