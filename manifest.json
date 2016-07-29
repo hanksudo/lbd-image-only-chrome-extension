@@ -1,12 +1,17 @@
 {
     "name": "Images Only",
-    "version": "1.0",
-    "background_page": "background.html",
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
+    "description": "Only show images on current page",
+    "version": "1.1",
     "permissions": [
-        "tabs",
-        "http://*/*"
-    ]
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "show images"
+    },
+    "manifest_version": 2
 }
