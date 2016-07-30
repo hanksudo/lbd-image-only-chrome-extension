@@ -1,5 +1,7 @@
-## Show image only on current page.
+# Image only chrome extension
 
-### Reference
+Learning by doing - A chrome extension filter all contents but images
+
+## Reference
 
 - [Sample Extensions - Google Chrome](https://developer.chrome.com/extensions/samples)
